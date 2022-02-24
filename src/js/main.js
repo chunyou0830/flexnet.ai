@@ -49,3 +49,10 @@
     })
   }
 }())
+
+$("#mailto").click( function(e) { 
+  var username = "hi",  
+        domain = "flexnet.ai"; 
+
+  window.location.href = "mailto:" + username.substring(0) + "@" + domain.substring(0); 
+} ); 

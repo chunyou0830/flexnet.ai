@@ -65,6 +65,10 @@
         &:hover {
             color: color(typography, 1i);
         }
+
+        &.gray {
+            color: color(typography, 3);
+        }
     }
 }
 

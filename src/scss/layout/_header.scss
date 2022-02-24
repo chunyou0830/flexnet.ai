@@ -48,6 +48,10 @@
             background: mix(color(primary, 3), color(primary, 1));
             background: linear-gradient(to bottom, color(primary, 3) 0, color(primary, 1) 100%);
             background-repeat: no-repeat;
+
+            &.thin {
+                left: 1200px !important;
+            }
         }
     }
 }
