@@ -1,5 +1,9 @@
 .hero {
     text-align: center;
+
+    &.left {
+        text-align: left;
+    }
 }
 
 .hero-inner {
